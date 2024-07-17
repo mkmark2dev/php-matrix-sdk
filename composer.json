@@ -44,7 +44,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mkmark2dev\\MatrixSDK\\": "src/"
+            "MatrixPhp\\": "src/"
         }
     },
     "scripts": {
