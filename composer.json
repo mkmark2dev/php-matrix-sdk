@@ -1,5 +1,5 @@
 {
-    "name": "meet-kinksters/php-matrix-sdk",
+    "name": "mkmark2dev/php-matrix-sdk",
     "type": "library",
     "description": "PHP SDK for interacting with Matrix/Synapse.",
     "keywords": [
@@ -42,9 +42,9 @@
             "MatrixPhp\\": "src"
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "MatrixPhp\\Tests\\": "tests"
+            "Mkmark2dev\\MatrixSDK\\": "src/"
         }
     },
     "scripts": {
