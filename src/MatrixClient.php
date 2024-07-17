@@ -114,7 +114,7 @@ class MatrixClient {
         int $syncFilterLimit = 20,
         int $cacheLevel = Cache::ALL,
         $encryption = false,
-        $encryptionConf = [],
+        $encryptionConf = []
     ) {
         // @phpstan-ignore-next-line
         if ($encryption && ENCRYPTION_SUPPORT) {
